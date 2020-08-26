@@ -92,7 +92,7 @@ These are mapped to neomodel.config as django is started::
     NEOMODEL_SIGNALS = True
     NEOMODEL_FORCE_TIMEZONE = False
     NEOMODEL_ENCRYPTED_CONNECTION = True
-    NEOMODEL_MAX_POOL_SIZE = 50
+    NEOMODEL_MAX_CONNECTION_POOL_SIZE = 50
 
 Signals
 =======
